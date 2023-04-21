@@ -26,8 +26,20 @@
                 <li class="nav-item"><a href="/admin.jsp" class="nav-link">관리자</a></li>
             </ul>
         </nav>
-        <div id="main"></div>
-        <footer></footer>
+        <div id="main">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-1 text-center p-3">超機密 PROJECT 補充計劃</h1>
+                </div>
+            </div>
+            <div class="col-6 offset-3">
+                <img src="./img/yosigo.JPG" class="img-fluid" alt="yosigo">
+            </div>
+            <div class="row"></div>
+        </div>
+        <footer>
+            <h6 class="col text-end bg-dark bg-opacity-10 p-3">Copyright &copy; Lorem Ipsum 2023. catgirl. All Rights Reserved. Created by Bootstrap5.</h6>
+        </footer>
     </div>
 
     <!-- 로그인 폼 모달 -->
