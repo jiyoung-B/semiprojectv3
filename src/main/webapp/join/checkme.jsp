@@ -50,7 +50,7 @@
                 <hr>
 
                 <div class="card card-body bg-light mt-5 mx-3 ">
-                    <h3>회원가입</h3>
+                    <h3 class="mb-5">회원가입</h3>
                     <form id="checkfrm1" name="checkfrm1">
                         <div class="row">
                             <div class="col-5 offset-1">
@@ -90,7 +90,7 @@
                                     </div>
                                 </div>
                                 <div class="row mb-3">
-                                    <label for="gender" class="col-4 col-form-label text-warning text-end">성별</label>
+                                    <label for="gender" class="col-3 col-form-label text-warning text-end">성별</label>
                                         <div class="col-3 mt-2">
                                             <div class="form-check">
                                                 <input type="radio" id="gmale" name="gender" value="m" checked class="form-check-input">
@@ -105,7 +105,6 @@
 
                                     </div>
                                 </div>
-
                             </div>
                             <div class="col-5">
                                 <li>주민등록번호 입력 없이 전화번호로 회원가입이 가능합니다.</li>
@@ -126,20 +125,42 @@
                 </div>
 
                 <div class="card card-body bg-light mt-5 mx-3">
-                    <h3>실명확인 회원가입</h3>
+                    <h3 class="mb-5">실명확인 회원가입</h3>
                     <form id="checkfrm2" name="checkfrm2">
                         <div class="row">
                             <div class="col-5 offset-1">
-
-
+                                <div class="row mb-3">
+                                    <label for="name2" class="col-3 col-form-label text-warning text-end">이름</label>
+                                    <div class="col-6">
+                                        <input type="text" id="name2" name="name" class="form-control border-warning"></div>
+                                </div>
+                                <div class="row mb-2">
+                                    <label for="jumin1" class="col-3 col-form-label text-warning text-end">주민번호</label>
+                                    <div class="col-3">
+                                        <input type="text" name="jumin1" id="jumin1" class="form-control border-warning"></div>
+                                    <div class="col-3">
+                                        <input type="text" name="jumin2" id="jumin2" class="form-control border-warning">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-3 col-form-label text-warning text-end">&nbsp;</label>
+                                    <div class="col-7 mt-2">
+                                        <div class="form-check">
+                                            <input type="checkbox" id="chkjumin" name="chkjumin" value="y" class="form-check-input">
+                                            <label for="chkjumin" class="form-check-label text-warning">주민번호 처리에 동의합니다.</label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-5">
+                                <ul>
                                 <li>실명확인 회원가입시 공개 게시판 이용이 가능합니다.</li>
                                 <li>타인의 주민등록번호를 임의로 사용하면 <span style="color:red;">'주민등록법'에 의해
                             3년 이하의 징역 또는 1천만원 이하의 벌금</span>이 부과될 수 있습니다.</li>
                                 <li>입력하신 주민등록번호는 <span style="color:red;">별도 저장되지 않으며,
                             신용평가기관을 통한 실명확인용</span>으로만 이용됩니다.</li>
                                 <li>개인정보보호법에 따라 <span style="color:red;">이용 동의</span>를 받습니다.</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="row">
@@ -153,9 +174,9 @@
                         </div>
                     </form>
                 </div>
-
-            </div>
         </div>
+
+
         <footer class="mt-5">
             <h6 class="col text-end bg-dark bg-opacity-10 p-3">Copyright &copy; Lorem Ipsum 2023. catgirl. All Rights Reserved. Created by Bootstrap5.</h6>
         </footer>
