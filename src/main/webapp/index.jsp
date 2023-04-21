@@ -31,11 +31,20 @@
                 <div class="col-12">
                     <h1 class="display-1 text-center p-3">超機密 PROJECT 補充計劃</h1>
                 </div>
-            </div>
             <div class="col-6 offset-3">
                 <img src="./img/yosigo.JPG" class="img-fluid" alt="yosigo">
             </div>
-            <div class="row"></div>
+            </div>
+            <div class="row">
+                <div class="col-8 offset-2 text-center p-3">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lectus est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eget tincidunt justo. Cras quis tempus urna. Vestibulum faucibus sit amet enim nec tincidunt. Nullam lacinia, lectus eget hendrerit ultricies, diam sem aliquet massa, condimentum viverra diam mauris at enim. Nullam egestas pulvinar arcu at lobortis. </p>
+                    <div><button class="btn btn-success">지금 바로 시작하기</button></div>
+                </div>
+            </div>
+            <div class="row">
+
+
+            </div>
         </div>
         <footer>
             <h6 class="col text-end bg-dark bg-opacity-10 p-3">Copyright &copy; Lorem Ipsum 2023. catgirl. All Rights Reserved. Created by Bootstrap5.</h6>
