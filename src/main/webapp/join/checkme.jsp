@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand navbar-dark bg-dark">
             <ul class="navbar-nav nav-fill w-100">
                 <li class="nav-item"><a href="/intro.jsp" class="nav-link">프로젝트소개</a></li>
-                <li class="nav-item"><a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
+                <li class="nav-item"><a href="/join/agree.jsp" class="nav-link active disabled">회원가입</a></li>
                 <li class="nav-item"><a href="/board/list.jsp" class="nav-link">게시판</a></li>
                 <li class="nav-item"><a href="/pds/list.jsp" class="nav-link">자료실</a></li>
                 <li class="nav-item"><a href="/gallery/list.jsp" class="nav-link">갤러리</a></li>
@@ -174,15 +174,12 @@
                         </div>
                     </form>
                 </div>
+            </div>
         </div>
-
-
         <footer class="mt-5">
             <h6 class="col text-end bg-dark bg-opacity-10 p-3">Copyright &copy; Lorem Ipsum 2023. catgirl. All Rights Reserved. Created by Bootstrap5.</h6>
         </footer>
     </div>
-
-
     <script src="/js/bs5/bootstrap.bundle.min.js"></script>
 </body>
 </html>
