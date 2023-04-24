@@ -157,11 +157,11 @@
 
                         <div class="col-2">
                             <select class="form-select border-danger" id="email3">
-                                <optio>선택하세요</optio>
-                                <optio>직접입력하기</optio>
-                                <optio>naver.com</optio>
-                                <optio>gmail.com</optio>
-                                <optio>hotmail.com</optio>
+                                <option>선택하세요</option>
+                                <option>직접입력하기</option>
+                                <option>naver.com</option>
+                                <option>gmail.com</option>
+                                <option>hotmail.com</option>
                             </select>
                         </div>
                 </div>
@@ -172,9 +172,9 @@
 
                         <div class="col-2">
                             <select class="form-select border-danger" id="tel1">
-                                <optio>국번</optio>
-                                <optio>010</optio>
-                                <optio>011</optio>
+                                <option>국번</option>
+                                <option>010</option>
+                                <option>011</option>
                             </select>
                         </div>
                         <div class="col-2">
@@ -216,6 +216,30 @@
         </div>
 
         <!-- 우편번호 폼 모달 -->
+        <div id="zipmodal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">우편번호 찾기</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form name="zipfrm" id="zipfrm">
+                            <div class="row">
+                                <label class="col-3 form-label text-end" for="dong">검색하실 주소의 <br> 동 이름을 입력하세요</label>
+                                <div class="col-4"><input type="text" name="dong" id="dong" class="form-control border-primary"></div>
+                                <div class="col-3"><button type="button" id="findzipbtn" class="btn btn-primary"><i class="fas fa-search"></i>검색하기</button></div>
+
+                            </div>
+                            <div class="row"></div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" id="sendzip"><i class="fas fa-check-square"></i>선택하고 닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://www.google.com/recaptcha/api.js"></script>
     </div>
